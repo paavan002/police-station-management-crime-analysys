@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="newcase.css">
+    <title>POLICE STATION RECORDS</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo">
+                 <a href="#">ADD NEW CASE</a>
+            </div>
+            <ul>
+                <li><a href="pc.html">HOME</a></li>
+                <li><a href="https://docs.google.com/spreadsheets/d/1R4lKVeY4AzvKOgCTdpPnpMSQU_6IWgMgUXP-RVcjaSc/edit?gid=0#gid=0">ALL RECORDS DATA</a></li>
+                <li><a href="newcase.html">ADD ANOTHER RECORD</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="acd">
+        <img src="Appolice.png" height="300" width="300" alt="Police Logo">
+    </div>    
+
+    <div class="lod">
+        <form action="https://script.google.com/macros/s/AKfycbwlGFlmjGa6sOdlzs1li0MZwhzFAVBUQ8pLf4zQPquOnK5e-KjtUj227XOoSFw6-yzZ/exec" id="loginf" method="post">
+            <h2 id="a123">NEW RECORD</h2>
+            <label for="id">VICTIM ID:</label>
+            <input type="text" name="id" id="id" placeholder="Enter ID" required><br>
+            <label for="crime">VICTIM CRIME TYPE:</label>
+            <input type="text" name="crime" id="crime" placeholder="Enter crime type" required><br>
+            <label for="place">VICTIM INCIDENT PLACE:</label>
+            <input type="text" name="place" id="place" placeholder="Enter place" required><br>
+            <label for="age">VICTIM AGE:</label>
+            <input type="text" name="age" id="age" placeholder="Enter Age" required><br>
+
+            <label for="gender">VICTIM GENDER:</label>
+            <select id="gender" name="gender" required>
+                <option value="">Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Others</option>
+            </select><br>
+
+            <label for="outcome">VICTIM OUTCOME:</label>
+            <select id="outcome" name="outcome" required>
+                <option value="">Select Outcome</option>
+                <option value="arrested">Arrested</option>
+                <option value="not_arrested">Not Arrested</option>
+            </select><br>
+
+            <button type="submit">SUBMIT</button>
+        </form>
+    </div>
+
+</body>
+</html>

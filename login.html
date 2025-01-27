@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Police Login Page</title>
+</head>
+<body>
+    <div>
+        <h1>Police Login</h1>
+    </div>
+
+    <marquee class="hello" behavior="left" direction="left">
+        You need to enter the correct credentials for login. Thank you!
+    </marquee>
+
+    <div class="acd">
+        <img src="Appolice.png" height="300" width="300" alt="Police Logo">
+    </div>    
+
+    <div class="lod">
+        <form id="loginf" method="post">
+            <h2 id="a123">Login</h2>
+            <label for="name">Police Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter name" required><br>
+            <label for="pid">Police ID:</label>
+            <input type="text" name="pid" id="pid" placeholder="Enter ID" required><br>
+            <label for="password">Police Password:</label>
+            <input type="password" name="password" id="password" placeholder="Enter Password" required><br>
+            <button type="submit">Login</button>
+            <button type="button" onclick="location.href='pc.html'">Home</button>
+        </form>
+        <div id="message"></div> <!-- Message area -->
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>

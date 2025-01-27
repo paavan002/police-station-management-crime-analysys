@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 40px;
+    background-color: blue;
+    color: white;
+    margin:0;
+    padding:10px;
+}
+
+a{
+    text-decoration:none;
+    color:rgb(56, 14, 241);
+}
+
+
+header {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.acd {
+    width: 40%;
+    float: left;
+    padding-top: 170px;
+    padding-left: 250px;
+}
+
+.lod {
+    padding-top: 100px;
+    padding-right: 220px;
+}
+
+#loginf {
+    background-color: blue;
+    margin-left: 70%;
+    padding: 20px;
+    width: 420px;
+    border-radius: 8px;
+}
+
+#loginf h2 {
+    text-align: center;
+    color: white;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color:white;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.hello{
+    color:red;
+    font-size: 17px;
+    margin:0px;
+    padding: 0px;
+}
+
+button {
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 100px;
+    background-color: #e3e4eb;
+    color: rgb(37, 4, 250);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:rgb(54, 244, 146);
+}
